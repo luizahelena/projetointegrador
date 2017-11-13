@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo Mickey</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+		<img src="imagem/logo.jpg" alt="Imagem logo do site"/></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">ÍNICIO</a></li>
+                <li><a href="promocao.html">PROMOÇÃO</a></li>
+                <li><a href="desenhos.html">DESENHOS</a></li>
+                <li><a href="curiosidades.html">CURIOSIDADES</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+<article id="disart"> 
+   <h3 class="disney">Quer concorrer a uma promoção para a Disneylândia?</h3>
+    <p>Suspendisse neque erat, feugiat vel elementum eget, tempor quis dui. Sed ex neque, interdum eget ipsum ut, iaculis pellentesque ipsum. Nullam auctor lacinia ligula, ut iaculis sapien efficitur ac. Suspendisse mollis facilisis orci ac molestie. Morbi eu pulvinar mauris. Fusce non faucibus mi, eget ornare est. Etiam lectus quam, viverra vel est in, viverra viverra nulla. Integer a vulputate ante. Duis sem nibh, suscipit nec purus lobortis, vulputate tincidunt dolor.</p>
+     <p id="img"><img src="imagem/disney.jpg" alt="Imagem da Disney"/></p>
+    <h3 class="disney">Preencha o formulário e você já estará concorrendo</h3>
+<form
+    method="get" 
+    action="mailto:luizacollo@gmail.com">
+<p><label>Nome completo: <input></label></p>
+ <p><label>E-mail: <input type=email></label></p>  
+ <p><label>Cidade: <input></label>  Estado: <select name="estado">
+ <option value="AC">Acre</option>
+ <option value="AL">Alagoas</option>
+ <option value="AP">Amapá</option>
+ <option value="AM">Amazonas</option>
+ <option value="BA">Bahia</option>
+ <option value="CE">Ceará</option>
+ <option value="DF">Distríto Federal</option>
+ <option value="ES">Espírito Santo</option>
+ <option value="MA">Maranhão</option>
+ <option value="MT">Mato Grosso</option>
+ <option value="MS">Mato Grosso do Sul</option>
+ <option value="MG">Minas Gerais</option>
+ <option value="PA">Pará</option>
+ <option value="PB">Paraíba</option>
+ <option value="PE">Pernambuco</option>
+ <option value="PI">Piauí</option>
+ <option value="RJ">Rio de Janeiro</option>
+ <option value="RN">Rio Grande do Norte</option>
+ <option value="RS">Rio Grande do Sul</option>
+ <option value="RO">Rondônia</option>
+ <option value="RR">Roraíma</option>
+ <option value="SC">Santa Catarina</option>
+ <option value="SP">São Paulo</option>
+ <option value="SE">Sergipe</option>
+ <option value="TO">Tocantins</option>
+     </select></p>
+<p><label>Já possui passaporte?<input type=radio name="size"> Sim </label><label><input type=radio name="size"> Não </label></p>
+<p><label>Para quantos países você já viajou? <input type="range" min="0" max="193" step="1" value="0"></label></p>
+<p>Quais características você gosta no Mickey? <select multiple>
+  <option value="Olhos">Olhos</option>
+  <option value="Orelhas">Orelhas</option>
+  <option value="Nariz">Nariz</option>
+  <option value="Boca">Boca</option>
+  <option value="Rabo">Rabo</option>
+</select></p>
+<p><label>Por que você merece vencer esta promoção? <textarea id="cont"></textarea></label></p> 
+<p><button id="botao">Enviar</button></p>
+    </form>   
+</article>
+       <footer>
+        <small>Copyright 2017 Mundo Mickey. Todos os direitos reservados.</small>
+    </footer>
+</body>
+
+</html>
